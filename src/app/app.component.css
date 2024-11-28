@@ -1,0 +1,62 @@
+
+#box{
+    height: fit-content;
+    width: 50vw;
+    margin: auto;
+    border: 1px solid ;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+}
+
+input[type=text]{
+    width:100%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 0px 10px ;
+}
+#add{
+    height: 6vh;
+    width: 10vw;
+    margin-top: 20px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    margin-left: 38%;
+}
+#add:hover{
+    box-shadow: 0px 0px 20px 2px rgb(4 58 77 / 24%);
+}
+#input{
+    margin: 0px 50px 10px 50px;
+}
+hr{
+    margin-top: 10px;
+
+}
+#tasks{
+    margin: 0px 50px 10px 50px;
+}
+#tasks h2{
+    text-align: center;
+}
+
+#task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#task li{
+    font-size: 20px;
+}
+#task button{
+    height: 6vh;
+    width: 10vw;
+    background-color: cadetblue;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}

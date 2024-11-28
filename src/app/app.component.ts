@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Todo-App';
+
+  tasks: string[]=[];
+  addTask(task:string){
+    this.tasks.push(task);
+    
+  }
+
+  deleteTask(index:number){
+    this.tasks.splice(index, 1);
+  }
 }
